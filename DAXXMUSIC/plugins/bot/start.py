@@ -29,13 +29,13 @@ from strings import get_string
 #--------------------------
 
 NEXI_VID = [
-"https://telegra.ph/file/1a3c152717eb9d2e94dc2.mp4",
-"https://graph.org/file/ba7699c28dab379b518ca.mp4",
-"https://graph.org/file/83ebf52e8bbf138620de7.mp4",
-"https://graph.org/file/82fd67aa56eb1b299e08d.mp4",
-"https://graph.org/file/318eac81e3d4667edcb77.mp4",
-"https://graph.org/file/7c1aa59649fbf3ab422da.mp4",
-"https://graph.org/file/2a7f857f31b32766ac6fc.mp4",
+"https://telegra.ph/file/a320b1686c63e5eb0aa22.mp4",
+"https://telegra.ph/file/a320b1686c63e5eb0aa22.mp4",
+"https://telegra.ph/file/a320b1686c63e5eb0aa22.mp4",
+"https://telegra.ph/file/a320b1686c63e5eb0aa22.mp4",
+"https://telegra.ph/file/a320b1686c63e5eb0aa22.mp4",
+"https://telegra.ph/file/a320b1686c63e5eb0aa22.mp4",
+"https://telegra.ph/file/a320b1686c63e5eb0aa22.mp4",
 
 ]
 
@@ -63,7 +63,7 @@ async def start_pm(client, message: Message, _):
                 )
             return
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎")
+            m = await message.reply_text("😘")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
